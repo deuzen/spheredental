@@ -6404,49 +6404,46 @@ aside .widget_tag_cloud a:hover {
 	background-color: #3c3c3c;
 }
 
-/* services sprite */
+/* services icons */
 .service-icon {
 	width: 86px;
 	height: 86px;
-	background-image: url(../img/services.png);
+}
+
+.service-braces {
+	background-image: url(../img/icon-brackets.svg);
 	background-repeat: no-repeat;
 	display: inline-block;
 }
 
-.service-icon.service-icon-color {
-	background-image: url(../img/services-color.png);
-}
-
-.service-braces {
-	background-position: -5px -5px;
-}
-
-.service-calculus {
-	background-position: -101px -5px;
-}
-
 .service-cleaning {
-	background-position: -5px -101px;
+	background-image: url(../img/icon-aesthetics.svg);
+	background-repeat: no-repeat;
+	display: inline-block;
 }
 
 .service-cracked {
-	background-position: -101px -101px;
-}
-
-.service-defence {
-	background-position: -197px -5px;
+	background-image: url(../img/icon-broken.svg);
+	background-repeat: no-repeat;
+	display: inline-block;
 }
 
 .service-implants {
-	background-position: -197px -101px;
+	background-image: url(../img/icon-implant.svg);
+	background-repeat: no-repeat;
+	display: inline-block;
 }
 
 .service-paradontosis {
-	background-position: -5px -197px;
+	background-image: url(../img/icon-periodontics.svg);
+	background-repeat: no-repeat;
+	display: inline-block;
 }
 
-.service-protection {
-	background-position: -101px -197px;
+.service-prosthodontics {
+	background-image: url(../img/icon-prosthodontics.svg);
+	background-repeat: no-repeat;
+	display: inline-block;
 }
 
 /* services */
