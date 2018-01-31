@@ -3344,6 +3344,10 @@ a.logo.vertical_logo .logo-image {
 	background-color: #433649;
 }
 
+.theme_footer.cs a {
+	color: #e7e0eb;    
+}
+
 .theme_footer.cs .social-icon {
 	color: #1d7b86;
 }
