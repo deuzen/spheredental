@@ -3340,8 +3340,8 @@ a.logo.vertical_logo .logo-image {
 }
 
 .theme_footer.cs {
-	color: #5b838c;
-	background-color: #083b46;
+	color: #e7e0eb;
+	background-color: #433649;
 }
 
 .theme_footer.cs .social-icon {
@@ -3349,11 +3349,11 @@ a.logo.vertical_logo .logo-image {
 }
 
 .theme_footer.cs .highlight {
-	color: #4fc9e0;
+	color: #aa67d1;
 }
 
 .theme_footer.cs hr {
-	background-color: rgba(79, 201, 224, 0.42);
+	background-color: #9769b0;
 }
 
 .theme_footer .logo-bottom {
@@ -3475,7 +3475,7 @@ section .intro_section .slide_description_wrapper {
     line-height: 40px;
     font-weight: 400;
     margin-right: 2em;
-    color: #fff;
+    color: #e7e0eb;
 }
 
 .topbar .links a:hover {
