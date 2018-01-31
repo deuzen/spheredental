@@ -3478,8 +3478,16 @@ section .intro_section .slide_description_wrapper {
 .topbar .links a {
     line-height: 40px;
     font-weight: 400;
-    margin-right: 2em;
+    margin-right: 1em;
     color: #e7e0eb;
+}
+
+.topbar .links a:last-child {
+    margin-right: 0;
+}
+
+.topbar .links a.push {
+    margin-left: auto;
 }
 
 .topbar .links a:hover {
