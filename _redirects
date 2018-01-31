@@ -1,0 +1,3 @@
+# Redirect users with German or English language in their browser
+/ /en 302 Language=en
+/ /de 302 Language=de
