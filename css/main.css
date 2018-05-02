@@ -7067,6 +7067,26 @@ aside .widget_tag_cloud a:hover {
 	border-radius: 0;
 }
 
+.img-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+@media (max-width: 450px) {
+    .img-caption {
+        font-size: 12px;
+    }
+}
+
 .response,
 .highlight {
 	color: #4e0c71;
