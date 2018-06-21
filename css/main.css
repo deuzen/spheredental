@@ -3036,7 +3036,7 @@ a.logo .logo-image {
 	display: inline-block;
 	width: 38vw;
 	height: 12vw;
-	background-image: url("../images/sphere-dental-logo-01.svg");
+	background-image: url("../images/sphere-dental-logo-02.svg");
     background-size: cover;
 	vertical-align: middle;
     position: absolute;
@@ -3450,13 +3450,48 @@ section .intro_section .slide_description_wrapper {
 /**
 * user
 */
+
+.slide_description {
+    margin-top: 100px;
+}
+
+.full-overlay{
+  position: relative;
+  z-index: 1;
+  height:700px;
+  text-align: center;
+  padding:40px;
+    padding-top: 150px;
+  background:url("../images/backdrop.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.full-overlay::after{
+    content: "";
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+    background-color:rgba(0,0,0,0.5);
+}
+
+
 .intro_section .intro-layer p {
-    color: #3c3c3c;
+    color: #fff;
     font-weight: 400
 }
 
-.intro_section img {
-    transform: scaleX(-1);
+.intro_section .slide_description h3 {
+    color: #fff;
+}
+
+.img-caption {
+    font-weight: 700;
+    color: #4e0c71;
 }
 
 .main_header {
