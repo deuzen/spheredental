@@ -3460,7 +3460,6 @@ section .intro_section .slide_description_wrapper {
   z-index: 1;
   height:700px;
   text-align: center;
-  padding:40px;
     padding-top: 150px;
   background:url("../images/backdrop.jpg") no-repeat;
   background-size: cover;
