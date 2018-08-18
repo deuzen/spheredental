@@ -3407,7 +3407,8 @@ a.logo.vertical_logo .logo-image {
 }
 
 #map {
-	height: 400px;
+	height: 100vw;
+    max-height: 600px;
 }
 
 #map img {

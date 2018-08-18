@@ -159,7 +159,7 @@
                                 <div class="bottommargin_15">
                                     <div class="logo-bottom"></div>
                                 </div>
-                                <p>General dentist clinic specialized in implantology.</p>
+                                <p>General dentistry clinic specialized in implantology.</p>
                             </div>
                         </div>
                         <div id="contact-info" class="col-md-4 col-md-offset-1 col-sm-6">
@@ -292,7 +292,13 @@
             }
         ]
         });
+        var infowindow = new google.maps.InfoWindow({
+          content: '<img src="../images/sphere-dental-logo-01.svg" alt="Sphere Dental Studio">'
+        })
         var marker = new google.maps.Marker({position: sphereDental, map: map});
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDC_WMoUgwhdT-nE6wShb_ODFmDS3pO9o&callback=initMap" async defer></script>
