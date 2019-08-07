@@ -1,7 +1,7 @@
-/    /es   302  Country=es
-/es  /     302  Country=O1
-/de  /     302  Country=O1
-/en  /     302  Country=O1
+# /    /es   302  Country=es
+# /es  /     302  Country=O1
+# /de  /     302  Country=O1
+# /en  /     302  Country=O1
 # Language redirects
-/es /en 302 Language=en
-/es /de 302 Language=de
+# /es /en 302 Language=en
+# /es /de 302 Language=de
