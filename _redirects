@@ -3,5 +3,5 @@
 # /de  /     302  Country=O1
 # /en  /     302  Country=O1
 # Language redirects
-# /es /en 302 Language=en
-# /es /de 302 Language=de
+/ /en 302 Language=en
+/ /de 302 Language=de
